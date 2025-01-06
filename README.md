@@ -1,4 +1,6 @@
-1. Clone the repository: ```git clone repository.git```
+# Rihlatech Backend
+
+1. Clone the repository: ```git clone git@github.com:key-joshua/Rihlatech-Backend.git```
 2. Node Version ```v22.12.0```.
 3. Setup Database:
 
