@@ -6,7 +6,7 @@ const createStage = async (body: StageInterface): Promise<StageInterface> => {
 };
 
 const getStages = async (): Promise<StageInterface | []> => {
-    return await models.Stage.findAll();
+    return await models.Stage.findAll({ order: [['created_at', 'ASC']] });
 };
 
 const deleteStage = async (attribute) => {
